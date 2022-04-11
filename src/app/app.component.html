@@ -1,9 +1,16 @@
-<div class="wrapper">
+<div class="no-mp container-md justify-content-center" style="max-width: 940px">
   <app-header></app-header>
   <app-banner></app-banner>
   <app-separador></app-separador>
-  <div class="row">
-    <app-aside></app-aside>
-    <app-section></app-section>
+
+  <div class="d-flex flex-sm-row flex-column justify-content-center">
+    <div class="col-md-4 grey1">
+      <app-aside></app-aside>
+    </div>
+    <div class="d-flex p-3 lightGrey1 flex-column">
+      <app-profile></app-profile>
+      <app-experiencia></app-experiencia>
+      <app-educacion></app-educacion>
+    </div>
   </div>
 </div>

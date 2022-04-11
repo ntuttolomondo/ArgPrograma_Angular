@@ -8,6 +8,9 @@ import { BannerComponent } from './componentes/banner/banner.component';
 import { SeparadorComponent } from './componentes/separador/separador.component';
 import { AsideComponent } from './componentes/aside/aside.component';
 import { SectionComponent } from './componentes/section/section.component';
+import { ProfileComponent } from './componentes/profile/profile.component';
+import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
+import { EducacionComponent } from './componentes/educacion/educacion.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +20,9 @@ import { SectionComponent } from './componentes/section/section.component';
     SeparadorComponent,
     AsideComponent,
     SectionComponent,
+    ProfileComponent,
+    ExperienciaComponent,
+    EducacionComponent,
   ],
   imports: [
     BrowserModule,
