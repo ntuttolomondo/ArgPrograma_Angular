@@ -1,0 +1,23 @@
+{
+    "name":"Natalia Tuttolomondo",
+    "about1":"Diseñadora integral especializada en preimpresión digital para offset y procesos post-impresión.",
+    "about2":"Estudiante de UX/UI y Web Full Stack.",
+    "about3":"Docente",
+    "experiencia1":{
+       "company":"Plastificar S.R.L.",
+       "start":"2013",
+       "end":"2021",
+       "position1":"Encargada del área de producción gráfica.",
+       "position2":"Armado y corrección de originales para preimpresión en offset.",
+       "position3":"Asesoramiento técnico sobre procesos post-impresión",
+       "position4":"Armado de polímeros para BUV sectorizado y matrices de hot-stamping y relieve en seco."
+    },
+    "experiencia2":{
+       "company":"téms",
+       "start":"2004",
+       "end":"2013",
+       "position1":"Branding.",
+       "position2":"Diseño y producción de packaging.",
+       "position3":"Diseño web."
+    }
+ }

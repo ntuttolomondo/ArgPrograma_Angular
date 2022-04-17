@@ -11,6 +11,9 @@ import { SectionComponent } from './componentes/section/section.component';
 import { ProfileComponent } from './componentes/profile/profile.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
+import { Pagina404Component } from './componentes/pagina404/pagina404.component';
+import { PortfolioService } from './servicios/portfolio.service';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -23,10 +26,12 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
     ProfileComponent,
     ExperienciaComponent,
     EducacionComponent,
+    Pagina404Component,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
