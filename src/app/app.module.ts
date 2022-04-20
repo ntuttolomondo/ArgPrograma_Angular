@@ -15,6 +15,7 @@ import { Pagina404Component } from './componentes/pagina404/pagina404.component'
 import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 
+
 @NgModule({
   declarations: [
     AppComponent,

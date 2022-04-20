@@ -1,14 +1,12 @@
     <div class="titulo pt-2">
       <p class="fw-bold h5">Educación</p>
     </div>
-    <div class="pt-2 d-flex flex-column flex-sm-row">
-      <ul>
-        <li class="fw-bold">Argentina Programa </li>
-        <p> Desarrolador Full Stack Jr.</p>
-        <li class="fw-bold">Henry + Las de Sistemas</li>
-        <p>Javascript Inicial</p>
-        <li class="fw-bold">Instituto Superior de Design CEPEC</li>
-        <p>Diseño Integral</p>
-        <li class="fw-bold">Fundación Gutenberg</li>
-        <p>Preimpresión Digital para Offset </p>
+    <div class="pt-2 d-flex flex-column">
+      <ul *ngFor="let education of educationList" style="list-style-type:none">
+        <div class="lh-sm">
+          <li class="fw-bold">{{education.institute}}</li>
+        </div>
+          <li>{{education.title}}</li>
+          <li style="color:rgb(90, 90, 90)">{{education.start}} - {{education.end}}</li>
       </ul>
+    </div>
