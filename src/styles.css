@@ -3,31 +3,11 @@
     padding:0px;
     margin:0px;
   }
-  .profile {
-    position: relative;
-  }
-
-  .separador#span {
-    margin-right: 0px;
-    }
 }
 
 * {
   font-family: "Work Sans", Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
-}
-
-html {
   font-size: 1rem;
-}
-
-.socialMedia img {
-  max-width: 50px;
-  min-width: 30px;
-  padding: 0px 10px;
-}
-
-.skills img {
-  max-width: 500px;
 }
 
 .darkGrey1 {
@@ -64,13 +44,5 @@ position: absolute;
 left: -10px;
 
 /* Adjust this value so that it appears where you want. */
-}
-
-.profile {
-  position: absolute;
-}
-
-div#separador span {
-margin-right: 180px;
 }
 

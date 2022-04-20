@@ -1,0 +1,32 @@
+.separator {
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 100%;
+    text-align: center;
+    border-style: solid 1px red;
+}
+
+.name {
+    padding-right: 160px;
+}
+
+.profile {
+    position: absolute;
+}
+
+@media (max-width: 845px) {
+
+    .profile {
+        position: relative;
+        flex: 100%;
+        flex-wrap: wrap;
+    }
+    .name {
+        padding-right: 0px;
+        flex: 100%;
+        flex-wrap: wrap;
+        font-size: 1.3em;
+    }
+    
+}
