@@ -1,5 +1,8 @@
-    <div class="titulo pt-2">
+    <div class="d-flex titulo pt-2 position-relative">
       <p class="fw-bold h5">Educación</p>
+      <div class="position-absolute end-0">
+        <i class="bi bi-pencil" style="font-size: 1rem; color: #333;"></i>
+      </div>
     </div>
     <div class="pt-2 d-flex flex-column">
       <ul *ngFor="let education of educationList" style="list-style-type:none">
@@ -7,6 +10,6 @@
           <li class="fw-bold">{{education.institute}}</li>
         </div>
           <li>{{education.title}}</li>
-          <li style="color:rgb(90, 90, 90)">{{education.start}} - {{education.end}}</li>
+          <li class="fw-lighter" style="color:rgb(90, 90, 90)">{{education.start}} - {{education.end}}</li>
       </ul>
     </div>

@@ -1,3 +1,5 @@
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
 @media (max-width: 845px) {
   .no-mp, .row {
     padding:0px;
@@ -28,6 +30,7 @@
 
 .titulo {
 border-bottom: solid 1px #f7d9de;
+
 background-color: #f2f2f2;
 }
 

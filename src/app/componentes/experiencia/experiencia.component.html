@@ -1,32 +1,15 @@
-<div id="exp">
-    <div class="titulo pt-2">
-      <p class="fw-bold h5">Experiencia</p>
-    </div>
-    <div class="d-flex flex-sm-row flex-column p-3 pt-0">
-      <div class="d-flex col-md-3 flex-column m-0">
-        <p class="fw-bold m-0 pt-2">{{miPortfolio.experiencia1.company}}.</p>
-        <p class="m-0" style="color:rgb(90, 90, 90)">[{{miPortfolio.experiencia1.start}} - {{miPortfolio.experiencia1.end}}]</p>
-      </div>
-      <div class="d-flex col-md-9 pt-2 listN">
-        <ul>
-          <li>{{miPortfolio.experiencia1.postition1}}</li>
-          <li>{{miPortfolio.experiencia1.position2}}</li>
-          <li>{{miPortfolio.experiencia1.position3}}</li>
-          <li>{{miPortfolio.experiencia1.position4}}</li>
-        </ul>
-      </div>
-    </div>
+<div class="titulo pt-2">
+  <p class="fw-bold h5">Experiencia</p>
 </div>
-<div class="d-flex flex-sm-row flex-column p-3 pt-0">
-    <div class="d-flex col-md-3 flex-column m-0">
-      <p class="fw-bold m-0 pt-2">{{miPortfolio.experiencia2.company}}</p>
-        <p class="m-0" style="color:rgb(90, 90, 90)">[{{miPortfolio.experiencia2.start}} - {{miPortfolio.experiencia2.end}}]</p>
-      </div>
-      <div class="d-flex col-md-9 pt-2 listN" >
-        <ul>
-          <li>{{miPortfolio.experiencia2.position1}}</li>
-          <li>{{miPortfolio.experiencia2.position2}}</li>
-          <li>{{miPortfolio.experiencia2.position3}}</li>             
-      </ul>
+<div class="pt-2 d-flex flex-column">
+  <ul *ngFor="let experiencia of experienciaList" style="list-style-type:none">
+    <div class="lh-sm">
+      <li class="fw-bold">{{experiencia.company}}</li>
     </div>
+      <li class="fw-lighter" style="color:rgb(90, 90, 90)">{{experiencia.start}} - {{experiencia.end}}</li>
+      <li>{{experiencia.position1}}</li>
+      <li>{{experiencia.position2}}</li>
+      <li>{{experiencia.position3}}</li>
+      <li>{{experiencia.position4}}</li>
+  </ul>
 </div>
