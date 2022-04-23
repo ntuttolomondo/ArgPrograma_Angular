@@ -1,12 +1,11 @@
 {
    "name": "Natalia Tuttolomondo",
    "bannerImg": "assets/img/banner1400x600.png",
-   "about": [
-      "Diseñadora integral especializada en preimpresión digital para offset y procesos post-impresión.",
-      "Estudiante de UX/UI y Web Full Stack.",
-      "Docente"
-   ],
-   "experiencia": [
+   "about1": "Diseñadora integral especializada en preimpresión digital para offset y procesos post-impresión.",
+   "about2":  "Estudiante de UX/UI y Web Full Stack.",
+   "about3":   "Docente",
+
+      "experiencia": [
       {
          "company": "Plastificar S.R.L.",
          "start": "2013",
