@@ -80,6 +80,26 @@
       {
          "software": "Photoshop",
          "lvl": "75"
+      },
+      {
+         "software": "InDesign",
+         "lvl": "75"
+      },
+      {
+         "software": "HTML",
+         "lvl": "50"
+      },
+      {
+         "software": "CSS",
+         "lvl": "50"
+      },
+      {
+         "software": "Javascript",
+         "lvl": "25"
+      },
+      {
+         "software": "Angular",
+         "lvl": "25"
       }
    ],
    "idiomas": [{
