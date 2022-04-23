@@ -8,13 +8,13 @@ import { PortfolioService } from 'src/app/servicios/portfolio.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  miPortfolio:any;
+  miProfile:any;
 
   constructor(private datosPortfolio: PortfolioService) { }
 
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatos().subscribe(data => {
-      this.miPortfolio=data;
+      this.miProfile=data;
     }); 
     }
 }
