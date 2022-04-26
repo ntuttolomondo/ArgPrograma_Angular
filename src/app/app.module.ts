@@ -12,7 +12,6 @@ import { ProfileComponent } from './componentes/profile/profile.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { EducacionComponent } from './componentes/educacion/educacion.component';
 import { Pagina404Component } from './componentes/pagina404/pagina404.component';
-import { PortfolioService } from './servicios/portfolio.service';
 import { HttpClientModule } from '@angular/common/http';
 
 
