@@ -16,7 +16,7 @@ export class ExperienciaComponent implements OnInit {
   ngOnInit(): void {
     this.datosPortfolio.obtenerDatosEd().subscribe(data => {
       this.experienciaList=data.experiencia;
-      console.log("Powered by Natuz")
+      console.log("Powered by Natuz");
     }); 
     }
 }
