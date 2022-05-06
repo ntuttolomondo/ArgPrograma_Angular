@@ -11,7 +11,6 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log("Powered by Natuz")
 
   }
 
