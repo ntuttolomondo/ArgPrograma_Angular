@@ -53,3 +53,6 @@ left: -10px;
 /* Adjust this value so that it appears where you want. */
 }
 
+.progress-bar {
+  background: #666 !important;
+}
