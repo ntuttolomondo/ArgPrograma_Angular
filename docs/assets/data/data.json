@@ -71,48 +71,44 @@
    "skills": [
       {
          "software": "Illustrator",
-         "lvl": "100"
+         "lvl": 100
       },
       {
          "software": "Acrobat Pro",
-         "lvl": "75"
+         "lvl": 75
       },
       {
          "software": "Photoshop",
-         "lvl": "75"
+         "lvl": 75
       },
       {
          "software": "InDesign",
-         "lvl": "75"
+         "lvl": 75
       },
       {
          "software": "HTML",
-         "lvl": "50"
+         "lvl": 75
       },
       {
          "software": "CSS",
-         "lvl": "50"
+         "lvl": "75"
       },
       {
          "software": "Javascript",
-         "lvl": "25"
-      },
-      {
-         "software": "Angular",
-         "lvl": "25"
+         "lvl": 25
       }
    ],
    "idiomas": [{
       "name": "Español [Nativo]",
-      "lvl": "100"
+      "lvl": 100
    },
    {
       "name": "Inglés",
-      "lvl": "75"
+      "lvl": 75
    },
 
    { "name": "Japonés",
-      "lvl": "50"
+      "lvl": 50
    }
 ]
 }
